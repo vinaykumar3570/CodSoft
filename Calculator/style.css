@@ -1,0 +1,115 @@
+* {
+    /* margin: 0;
+    padding: 0; */
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all .2s;
+}
+
+
+body {
+    background: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+span {
+    color: red;
+}
+
+.container {
+    background: rgb(100, 139, 255);
+    padding: 20px 0;
+    /* width: 240px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 30px;
+
+}
+
+.row {
+    margin: 5px 0;
+}
+
+.button {
+    margin: 0 5px;
+    height: 60px;
+    width: 60px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+    background: rgb(44, 85, 209);
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.equal {
+    background: rgb(5, 233, 5);
+}
+
+.clr {
+    background: rgb(230, 149, 28);
+}
+
+.del {
+    background: rgb(0, 0, 151);
+}
+
+
+
+.input {
+    width: 260px;
+    padding:10px;
+    font-size: 40px;
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background: #e3f1ff;
+    text-align: right;
+    cursor: default;
+}
+
+.dark {
+    background: rgb(28, 30, 43);
+    color: #fff;
+}
+
+.container-dark {
+    background: rgb(2, 3, 27);
+}
+
+.input-dark {
+    background: rgb(1, 4, 19);
+    box-shadow: 1px 1px 2px grey, inset 1px 1px 2px grey;
+    color: white;
+}
+
+.button-dark {
+    background: rgb(6, 7, 19);
+    color: #fff;
+    box-shadow: .5px .5px 1px grey, -.5px -.5px 1px grey;
+}
+
+i.fa-moon {
+    color: grey;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    transform: scale(2);
+    cursor: pointer;
+}
+
+i.fa-sun {
+    color: rgb(255, 238, 0);
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    transform: scale(2);
+    cursor: pointer;
+}

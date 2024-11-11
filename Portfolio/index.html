@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+   <meta charset='UTF-8'>
+   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+   <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+   <title> Portfolio | Vinay kumar </title>
+   <link rel='stylesheet' href='style.css'>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!-- <link rel="stylesheet" href="fontawesome/css/all.min.css"> -->
+   </style>
+</head>
+
+<body>
+   <img src="polygon.png" class="bg" alt="">
+   <nav id="navbar">
+      <label class="logo">
+         <img src="logo.png" alt="">
+      </label>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+         <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+         <li><a href="#home" class="active" onclick="check()">Home</a></li>
+         <li><a href="#about" onclick="check()">About</a></li>
+         <li><a href="#skills" onclick="check()">Skills</a></li>
+         <li><a href="#projects" onclick="check()">Projects</a></li>
+         <li><a href="#contacts" onclick="check()">Contacts</a></li>
+      </ul>
+      <div class="theme-icon" onclick="themeChange()">
+         <i class="fas fa-sun"></i>
+      </div>
+   </nav>
+   <main>
+      <header id="home">
+         <div class="intro">
+            <h3> Hello !</h3>
+            <h1> I'm <span> Vinay Kumar </span></h1>
+            <p> I specialize in designing and building user-friendly websites with a focus on simplicity, accessibility,
+               and seamless user experiences. My passion lies in turning ideas into reality, combining creativity with
+               technical skills to deliver projects that are not only visually appealing but also highly functional.</p>
+            <a href="Vinay-kumar-resume.pdf" target="_blank">
+               <button> Download CV </button>
+            </a>
+         </div>
+         <div class="profile">
+            <div class="invisible-box">
+               <div class="top-left"></div>
+               <div class="bottom-right"></div>
+               <div class="profile-box">
+                  <img src="profile.png" alt="">
+               </div>
+            </div>
+         </div>
+      </header>
+      <section class="about" id="about">
+         <h1> About <span>Me</span> </h1>
+         <h2 class="shadow"> About </h2>
+         <p> Hello ! Myself Vinay Kumar. To be a part of Studies & Professional that provides me with a challenging
+            environment as well as the learning and experience. As a Computer Science Graduated from Chaudhary Charan
+            Singh University with knowledge of Web Development and many more Skills , looking for an Job. Bringing
+            Proficient knowledge of various languages , Creativeness and Good Communication Skills.
+         </p>
+      </section>
+      <section class="personal-info">
+         <h1> Personal <span>Info</span></h1>
+         <h2> Personal </h2>
+         <div class="personal-detail">
+            <div class="box box1">
+               <span> Name : </span> Vinay Kumar
+            </div>
+            <div class="box box2">
+               <span> DOB : </span> 21-09-2003
+            </div>
+            <div class="box box3">
+               <span> Phone : </span> +91-9917723570
+            </div>
+            <div class="box box4">
+               <span> Email : </span> vinay2192000@gmail.com
+            </div>
+            <div class="box box5">
+               <span> City : </span> Meerut
+            </div>
+            <div class="box box6">
+               <span> State : </span> Uttar Pradesh
+            </div>
+            <div class="box box7">
+               <span> Nationality : </span> Indian
+            </div>
+            <div class="box box8">
+               <span> Language : </span> Hindi, English
+            </div>
+         </div>
+      </section>
+      <section class="education">
+         <h1>Educa<span>tion</span></h1>
+         <h2> Education </h2>
+         <div class="education-detail">
+            <div class="edu">
+               <h3> b.sc Hons. computer science </h3>
+               <h2> 2020-23 </h2>
+               <h4> Chaudhary charan singh univeristy, Meerut</h4>
+            </div>
+            <div class="edu">
+               <h3> Intermediate with Science PCM</h3>
+               <h2> 2020 </h2>
+               <h4> vidya deep global School, Meerut</h4>
+            </div>
+            <div class="edu">
+               <h3> high school with science </h3>
+               <h2> 2018 </h2>
+               <h4> vidya deep global School, Meerut</h4>
+            </div>
+         </div>
+      </section>
+      <section class="skills" id="skills">
+         <h1> My <span>Skills</span></h1>
+         <h2> Skills </h2>
+         <div class="skill-bars">
+            <div class="circular">
+               <p> HTML </p>
+            </div>
+            <div class="circular">
+               <p> CSS </p>
+            </div>
+            <div class="circular">
+               <p> JS </p>
+            </div>
+            <div class="circular">
+               <p> BootStrap </p>
+            </div>
+            <div class="circular">
+               <p> jQuery </p>
+            </div>
+            <div class="circular">
+               <p> Figma </p>
+            </div>
+            <div class="circular">
+               <p> Python </p>
+            </div>
+            <!-- <div class="circular">
+                                 <p> Php </p>
+                              </div> -->
+         </div>
+
+      </section>
+      <section class="projects" id="projects">
+         <h1>My <span>Projects</span></h1>
+         <h2> Projects </h2>
+         <p> Explore our diverse, innovative projects in our impressive portfolio collection.</p>
+         <div class="projects-box">
+            <div class="box box1">
+               <img src="1.jpg" alt="">
+               <div class="content-box">
+                  <h1> Calculator </h1>
+                  <p> This Calculator allows users to perform simple math
+                     calculations on a web page.</p>
+                  <div class="link">
+                     <a href=""><i class="fas fa-link"></i></a>
+                  </div>
+               </div>
+            </div>
+            <div class="box">
+               <img src="2.jpg" alt="">
+               <div class="content-box">
+                  <h1> Calculator </h1>
+                  <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente perferendis, blanditiis nulla.
+                  </p>
+                  <div class="link">
+                     <a href=""><i class="fas fa-link"></i></a>
+                  </div>
+               </div>
+            </div>
+            <div class="box">
+               <img src="3.jpg" alt="">
+               <div class="content-box">
+                  <h1> Calculator </h1>
+                  <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente perferendis, blanditiis nulla.
+                  </p>
+                  <div class="link">
+                     <a href=""><i class="fas fa-link"></i></a>
+                  </div>
+               </div>
+            </div>
+            <div class="box">
+               <img src="4.jpg" alt="">
+               <div class="content-box">
+                  <h1> Calculator </h1>
+                  <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente perferendis, blanditiis nulla.
+                  </p>
+                  <div class="link">
+                     <a href=""><i class="fas fa-link"></i></a>
+                  </div>
+               </div>
+            </div>
+            <div class="box">
+               <img src="5.jpg" alt="">
+               <div class="content-box">
+                  <h1> Calculator </h1>
+                  <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente perferendis, blanditiis nulla.
+                  </p>
+                  <div class="link">
+                     <a href=""><i class="fas fa-link"></i></a>
+                  </div>
+               </div>
+            </div>
+            <div class="box">
+               <img src="6.jpg" alt="">
+               <div class="content-box">
+                  <h1> Calculator </h1>
+                  <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente perferendis, blanditiis nulla.
+                  </p>
+                  <div class="link">
+                     <a href=""><i class="fas fa-link"></i></a>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </section>
+      <section class="service" id="services">
+         <h1> Services </h1>
+         <h2> Services </h2>
+         <div class="service-box">
+            <div class="card">
+               <div class="icon">
+                  <i class="fas fa-pen-fancy"></i>
+               </div>
+               <h2> Responsive Website </h2>
+               <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur quia nulla tempore tempora
+                  molestiae eaque provident dolorum iste enim laudantium!</p>
+            </div>
+            <div class="card">
+               <div class="icon">
+                  <i class="fas fa-laptop-code"></i>
+               </div>
+               <h2> Responsive Website </h2>
+               <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur quia nulla tempore tempora
+                  molestiae eaque provident dolorum iste enim laudantium!</p>
+            </div>
+            <div class="card">
+               <div class="icon">
+                  <i class="fa-solid fa-mobile-screen-button"></i>
+               </div>
+               <h2> Responsive Website </h2>
+               <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur quia nulla tempore tempora
+                  molestiae eaque provident dolorum iste enim laudantium!</p>
+            </div>
+         </div>
+      </section>
+      <section class="contacts" id="contacts">
+         <h1> Contact <span>Us</span></h1>
+         <h2> Contact </h2>
+         <div class="contact-detail">
+            <div class="contact-address">
+               <div class="box">
+                  <div class="icon-box">
+                     <i class="fas fa-phone"></i>
+                  </div>
+                  <div class="phone-ans item">
+                     <div class="title">
+                        Telephone
+                     </div>
+                     <div class="phone-number">+91-9917723570</div>
+                  </div>
+               </div>
+               <div class="box">
+                  <div class="icon-box">
+                     <i class="fas fa-envelope"></i>
+                  </div>
+                  <div class="phone-ans item">
+                     <div class="title">
+                        Email
+                     </div>
+                     <div class="phone-number">
+                        vinay2192000@gmail.com
+                     </div>
+                  </div>
+               </div>
+               <div class="box">
+                  <div class="icon-box">
+                     <i class="fab fa-github"></i>
+                  </div>
+                  <div class="phone-ans item">
+                     <div class="title">
+                        github
+                     </div>
+                     <div class="phone-number">
+                        vinaykumar3570
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="contact-input">
+               <form action="#">
+                  <input type="text" class="input" placeholder="Your Name">
+                  <input type="email" class="input" placeholder="Your Email">
+                  <textarea class="input" cols="30" rows="7" placeholder="Your Message"></textarea>
+                  <input type="submit" value="Send Message" class="input btn">
+               </form>
+            </div>
+         </div>
+      </section>
+   </main>
+   <footer>
+      <div class="links">
+         <div class="footer-logo">Vk</div>
+         <div class="link">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contacts">Contacts</a>
+         </div>
+         <div class="icons">
+            <i class="fab fa-github"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+         </div>
+      </div>
+      <div class="copyright">
+         Copyright &copy; 2024. All right reserved. Designed by Vinay kumar
+      </div>
+   </footer>
+   <script src='script.js'></script>
+</body>
+
+</html>
