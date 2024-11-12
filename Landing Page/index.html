@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>AquaChron | Watch Company </title>
+
+   <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+   <main class="main">
+      <nav>
+         <div class="logo">
+            AquaChron
+         </div>
+         <ul>
+            <li><a href="#home"> Home</a></li>
+            <li> <a href="#about"> About</a></li>
+            <li> <a href="#products"> Products</a></li>
+            <li> <a href="#contacts"> Contact</a></li>
+         </ul>
+      </nav>
+
+      <header id="home">
+         <div class="left">
+            <h1> Timeless Elegance in<br> Every Tick </h1>
+            <p>At AquaChron, we craft watches inspired by the ocean’s beauty and strength, offering
+               precision,durability, and timeless style for every adventure. we craft watches inspired by the ocean’s
+               beauty and strength, offering precision,durability, and timeless style for every adventure.</p>
+            <button> Check more! </button>
+         </div>
+         <div class="right">
+            <div class="watch-img">
+               <img src="images/black.png" class="watchImg mainBlack active">
+               <img src="images/grey.png" class="watchImg mainGrey">
+               <img src="images/red.png" class="watchImg mainRed">
+            </div>
+            <div class="watches-img">
+               <div class="black watch">
+                  <img src="images/black.png" onclick="blackWatch()">
+               </div>
+               <div class="grey watch">
+                  <img src="images/grey.png" onclick="greyWatch()">
+               </div>
+               <div class="red watch">
+                  <img src="images/red.png" onclick="redWatch()">
+               </div>
+            </div>
+         </div>
+         <div class="end">
+            <div class="box">
+               <div class="circle circle1 large" onclick="blackWatch()"></div>
+               <div class="circle circle2" onclick="greyWatch()"></div>
+               <div class="circle circle3" onclick="redWatch()"></div>
+            </div>
+         </div>
+      </header>
+   </main>
+   <img src="images/wave.svg" class="svg" alt="">
+   <section id="about">
+      <h2 class="heading"> Why Product is Best ? </h2>
+      <p class="heading-info"> "Discover unmatched quality, innovative features, and exceptional performance that set <br> our product apart as the top choice for you."</p>
+      <div class="about-cards">
+         <div class="card card1">
+            <h1 class="card-heading"> Interactive Design </h1>
+            <p>"Interactive Design" creates engaging, user-friendly experiences that respond to actions intuitively. It combines aesthetics with functionality, fostering seamless interactions that feel natural, immersive, and enhance usability for a satisfying digital experience..</p>
+         </div>
+         <div class="card card2">
+            <h1 class="card-heading"> Classic Quality </h1>
+            <p> "Classic Quality" embodies timeless elegance and meticulous craftsmanship. Each watch is designed with a blend of tradition and innovation, ensuring durability and sophistication. This commitment creates pieces that remain stylish and reliable.</p>
+         </div>
+         <div class="card card3">
+            <h1 class="card-heading"> GPS Tracking </h1>
+            <p> "GPS Tracking" enables precise location monitoring, offering real-time updates on movement and positioning. It’s invaluable for navigation, security, and asset management, providing accuracy and convenience in tracking people, vehicles, or items.</p>
+         </div>
+      </div>
+   </section>
+   <section id="products">
+      <h2 class="heading"> Our Available Products </h2>
+      <p class="heading-info"> "Explore our range of high-quality products, crafted to meet your needs with <br> reliability, style, and exceptional performance."</p>
+         <div class="product-cards">
+            <div class="card card1">
+               <img src="images/black.png" alt="">
+               <p>Black watches are elegant and complement any style or occasion perfectly.</p>
+               <div class="price-buy">
+                  <h2 class="price"> $9.99 </h2>
+                  <button> Buy Now </button>
+               </div>
+            </div>
+            <div class="card card1">
+               <img src="images/grey.png" alt="">
+               <p>Grey watches are offer sleek, modern look and versatility for any occasion.</p>
+               <div class="price-buy">
+                  <h2 class="price"> $4.99 </h2>
+                  <button> Buy Now </button>
+               </div>
+            </div>
+            <div class="card card1">
+               <img src="images/red.png" alt="">
+               <p>Maroon watches combine richness and elegance, offering a bold look for any style.</p>
+               <div class="price-buy">
+                  <h2 class="price"> $6.99 </h2>
+                  <button> Buy Now </button>
+               </div>
+            </div>
+
+         </div>
+   </section>
+   <section id="contacts">
+      <h2 class="heading"> Contact for Buy Products </h2>
+      <p class="heading-info"> "Reach out to us to purchase your ideal product - our team is ready to assist with a <br> smooth and personalized buying experience."</p>
+
+      <div class="contact-detail">
+         <div class="left-contact">
+            <img src="images/CU.jpg" alt="">
+         </div>
+         <div class="right-contact">
+            <form action="#">
+               <input type="text" class="input" placeholder="Your Name..." >
+               <input type="email"class="input"  placeholder="Email Address...">
+               <textarea  class="input" id="" cols="30" rows="7" placeholder="Message..."></textarea>
+               <input type="submit" class="input" value="Send Message">
+            </form>
+         </div>
+      </div>
+   </section>
+
+   <footer>
+      <h1 class="logo">AquaChron</h1>
+      <div class="links">
+         <a href="#home">Home</a>
+         <a href="#about">About</a>
+         <a href="#products">Products</a>
+         <a href="#contacts">Contacts</a>
+      </div>
+      <div class="copyrights">
+         Copyright &copy; 2024 All right reserved
+      </div>
+   </footer>
+
+
+   <script src="script.js"></script>
+</body>
+
+</html>
